@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .back {
+            width: 100%;
+            padding: 20px 0px;
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:10px
+        }
+
+        .img1 {
+            width: 20%;
+            padding: 10px 0px;
+        }
+
+        .h {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .p {
+            width: 30%;
+            font-size:17px;
+            font-weight: bold;
+            color: rgb(83, 82, 82);
+        }
+        .box{
+            width: 70%;
+            padding: 20px 0px;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+        .left{
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+        }
+        .right{
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .img{
+            width: 40%;
+        }
+        .h1{
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+        .p1{
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(83, 82, 82);
+            text-align: center;
+        }
+
+        @media screen  and (max-width:768px){
+
+        .box{
+            width: 90%;
+            flex-direction: column;
+            align-items: center;
+        }
+        .left,.right{
+            width: 100%;
+        }
+        
+        .p{
+            width: 90%;
+        }
+        .img1{
+            width: 50%;
+        }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back">
+            <img src="img/male.png" alt="" class="img1">
+        <div class="h">CONTACTS</div>
+        <div class="p">Use our contact form for all information requests or contact as directly using the contact
+            information below.</div>
+
+        <div class="box">
+        <div class="left">
+
+            
+            <img src="img/loc.png" alt="" class="img">
+
+             <div class="h1">Our Company Location</div>
+             <div class="p1">The Interior Design Studio Company The Courtyard,Al quoz 1,colorado,USA.</div>
+            </div>
+
+            <div class="right">
+           
+            <img src="img/phone.png" alt="" class="img">
+            
+            <div class="h1">Phone(Landline)<div>
+                <div class="p1">+912 3 5678987</div>
+                <div class="p1">+912 5 252 3336</div>
+             </div>
+
+       
+        </div>    
+    </div>
+</body>
+
+</html>
